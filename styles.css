@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #ececec;
+  font-size: 1rem;
+  line-height: 1.7;
+  background-color: #262626;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+main {
+  padding: 1rem;
+}
+
+#title,
+#description {
+  text-align: center;
+}
+
+#title {
+  font-size: 2rem;
+}
+
+#description {
+  font-style: italic;
+}
+
+form {
+  margin: 2rem 0;
+}
+
+.field {
+  margin: 1rem 0;
+}
+
+select,
+textarea,
+#number,
+#name,
+#email,
+#submit {
+  display: block;
+  padding: 0.5rem 1rem;
+  margin-top: 4px;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 0.875rem;
+  background-color: #dbdbdb;
+  border: 1px solid transparent;
+}
+
+input:focus {
+  border-color: #5884b3;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(93, 139, 187, 0.25);
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+p > span {
+  font-size: 14px;
+  font-style: italic;
+}
+
+#input-checkbox,
+#input-radio {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+#comments {
+  min-height: 150px;
+}
+
+#submit {
+  margin-top: 2rem;
+  background-color: #26415f;
+  color: #ececec;
+  font-size: 1.125rem;
+  transition: 200ms background-color ease-out;
+}
+
+#submit:hover {
+  background-color: #355983;
+}
